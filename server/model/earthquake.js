@@ -4,7 +4,7 @@ const userSchema = new mongoose.Schema({
         type: String,
         unique: true,
     },
-    data: {
+    dateRange: {
         type: String,
         unique: true
     },
